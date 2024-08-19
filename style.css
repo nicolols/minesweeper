@@ -1,0 +1,26 @@
+#board {
+    display: flex;
+    flex-direction: column;
+}
+
+#cellContainer {
+    display: flex;
+}
+
+#cell {
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+#player {
+    background-color: red;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+}
+
+#start {
+    margin: 10px;
+}
